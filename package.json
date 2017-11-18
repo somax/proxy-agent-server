@@ -9,10 +9,19 @@
   "scripts": {
     "start": "node ."
   },
-  "author": "MaXiaojun<somaxj@163.com>",
+  "author": "MaXiaojun <somaxj@163.com>",
   "license": "MIT",
   "dependencies": {
     "proxy-agent": "^2.1.0",
     "request": "^2.83.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/somax/proxy-agent-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/somax/proxy-agent-server/issues"
+  },
+  "homepage": "https://github.com/somax/proxy-agent-server#readme"
 }
