@@ -6,10 +6,9 @@ const request = require('request');
 const hostname = '127.0.0.1';
 const port = process.argv[2] || 1090;
 
-const server = http.createServer((req, res) => {
+var proxyUri = process.env.socks_proxy || 'socks5://127.0.0.1:57197';
 
-    // HTTP, HTTPS, or SOCKS proxy to use 
-    var proxyUri = process.env.http_proxy;
+const server = http.createServer((req, res) => {
 
     request({
         url: req.url,
