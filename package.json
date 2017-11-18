@@ -1,0 +1,18 @@
+{
+  "name": "proxy-agent-server",
+  "version": "0.1.0",
+  "description": "Socks proxy to http proxy.",
+  "main": "index.js",
+  "bin": {
+    "pas": "index.js"
+  },
+  "scripts": {
+    "start": "node ."
+  },
+  "author": "MaXiaojun<somaxj@163.com>",
+  "license": "MIT",
+  "dependencies": {
+    "proxy-agent": "^2.1.0",
+    "request": "^2.83.0"
+  }
+}
